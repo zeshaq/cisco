@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is QoS?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #0078d7;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #0078d7;
+            margin-top: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>What is QoS?</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Definition</h2>
+            <p><strong>Quality of Service (QoS)</strong> refers to a set of technologies and techniques used in networking to manage and prioritize network traffic. QoS ensures that critical or latency-sensitive applications (such as voice, video, and real-time gaming) receive the bandwidth and low latency they need to function properly, even when the network is congested.</p>
+        </section>
+        <section>
+            <h2>Key Features of QoS</h2>
+            <ul>
+                <li><strong>Traffic Classification</strong>: Identifies and categorizes network traffic based on types (e.g., VoIP, streaming video, web browsing).</li>
+                <li><strong>Traffic Prioritization</strong>: Assigns priority levels to different traffic types.</li>
+                <li><strong>Bandwidth Management</strong>: Allocates specific amounts of bandwidth to different applications or users.</li>
+                <li><strong>Latency and Jitter Control</strong>: Reduces delays and variations in packet delivery.</li>
+                <li><strong>Packet Dropping Policies</strong>: Drops low-priority packets during network congestion.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Techniques Used in QoS</h2>
+            <ul>
+                <li><strong>Differentiated Services (DiffServ)</strong>: Assigns traffic to classes using DSCP in the IP header.</li>
+                <li><strong>Integrated Services (IntServ)</strong>: Reserves bandwidth for specific traffic flows.</li>
+                <li><strong>Policing and Shaping</strong>: Policing drops packets exceeding allowed bandwidth, while shaping buffers excess traffic.</li>
+                <li><strong>Congestion Avoidance</strong>: Techniques like Random Early Detection (RED) help prevent congestion.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Applications of QoS</h2>
+            <ul>
+                <li><strong>Voice over IP (VoIP)</strong>: Ensures clear voice calls with minimal delay and jitter.</li>
+                <li><strong>Video Streaming</strong>: Reduces buffering and ensures smooth playback.</li>
+                <li><strong>Online Gaming</strong>: Provides low latency for better gaming performance.</li>
+                <li><strong>Critical Business Applications</strong>: Guarantees bandwidth for ERP, database access, or financial transactions.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Why QoS is Important</h2>
+            <p>Without QoS, all network traffic is treated equally, which can lead to issues such as:</p>
+            <ul>
+                <li><strong>Network Congestion</strong>: Critical applications competing with non-essential traffic.</li>
+                <li><strong>Latency and Jitter</strong>: Poor performance for real-time applications.</li>
+                <li><strong>Packet Loss</strong>: Disruptions in data flow affecting application performance.</li>
+            </ul>
+            <p>QoS is essential in both enterprise and service provider networks to meet service level agreements (SLAs) and maintain optimal user experience.</p>
+        </section>
+    </main>
+</body>
+</html>
